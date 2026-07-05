@@ -1,2 +1,187 @@
-# Online-Complaint-Registration-
-An Online Complaint Registration and Management System that allows users to register complaints, monitor their status in real time, receive notifications, and communicate with administrators for efficient issue resolution.
+# 🛡️ Online Complaint Registration System
+## 📖 Project Overview
+The **Online Complaint Registration System** is a full-stack web application developed using the MERN stack. It allows users to create an account, log in, and register complaints online. The system stores user and complaint information securely in MongoDB through a Node.js and Express.js backend.
+---
+# ✨ Features
+## 👤 User Module
+- User Registration
+- User Login
+- User details stored securely in MongoDB
+## 📝 Complaint Module
+- Register New Complaint
+- Store Complaint Details in MongoDB
+- Complaint fields include:
+  - Full Name
+  - Mobile Number
+  - Email
+  - Complaint Type
+  - Subject
+  - Description
+  - Address
+  - Complaint Status
+---
+# 🛠️ Tech Stack
+### Frontend
+- React.js
+- HTML
+- CSS
+- JavaScript
+### Backend
+- Node.js
+- Express.js
+### Database
+- MongoDB
+- Mongoose
+### Tools
+- Visual Studio Code
+- MongoDB Compass
+- Thunder Client
+- GitHub
+---
+# 📂 Project Structure
+```text
+OnlineComplaintRegistration/
+│
+├── client/
+│
+├── node_modules/
+│
+├── server/
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── adminController.js
+│   │   ├── complaintController.js
+│   │   └── userController.js
+│   │
+│   ├── models/
+│   │   ├── Admin.js
+│   │   ├── Complaint.js
+│   │   └── User.js
+│   │
+│   ├── node_modules/
+│   │
+│   ├── routes/
+│   │   ├── adminRoutes.js
+│   │   ├── complaintRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
+---
+# ⚙️ Installation
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/OnlineComplaintRegistration.git
+```
+### Navigate to the Project Folder
+```bash
+cd OnlineComplaintRegistration
+```
+### Install Frontend Dependencies
+```bash
+cd client
+npm install
+```
+### Install Backend Dependencies
+```bash
+cd ../server
+npm install
+```
+---
+# ▶️ Run the Backend
+
+```bash
+cd server
+node server.js
+```
+Backend runs on:
+```
+http://localhost:5000
+```
+---
+# ▶️ Run the Frontend
+```bash
+cd client
+npm start
+```
+Frontend runs on:
+```
+http://localhost:3000
+```
+---
+# 🔐 Environment Variables
+Create a `.env` file inside the `server` folder.
+```env
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/onlineComplaintDB
+JWT_SECRET=mysecretkey
+```
+---
+# 📡 API Endpoints
+## User APIs
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/users/signup` | Register User |
+| POST | `/api/users/login` | Login User |
+## Complaint APIs
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/complaints/register` | Register Complaint |
+---
+# 💾 Database
+The application uses **MongoDB** as the database.
+### Collections
+- Users
+- admins
+- Complaints
+---
+# 🧪 API Testing
+The backend APIs were tested using **Thunder Client**.
+Tested APIs:
+- User Signup
+- User Login
+- admin signup
+- admin login
+- Complaint Registration
+- Complaint all
+---
+# 👨‍💻 Team Members
+| Name | Role |
+|------|------|
+| Venkata Vyshnavi Pachipala | Team Lead |
+| Thanusha Guttha | Member |
+| Swathi Pidugu | Member |
+| Bushra Shaik | Member |
+| Lakshmi Devi Seelam | Member |
+---
+# 🎯 Project Objectives
+- Develop an online complaint registration system.
+- Simplify complaint submission.
+- Store complaint details securely.
+- Learn full-stack web development using the MERN stack.
+- Perform CRUD operations with MongoDB.
+---
+# 📚 Skills Used
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- REST API Development
+- GitHub
+---
+# 📄 License
+This project is developed for educational purposes as part of a college mini project.
