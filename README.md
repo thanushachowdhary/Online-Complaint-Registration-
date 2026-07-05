@@ -43,11 +43,54 @@ The **Online Complaint Registration System** is a full-stack web application dev
 OnlineComplaintRegistration/
 │
 ├── client/
-│
-├── node_modules/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Features.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProgressBar.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── ComplaintDetails.jsx
+│   │   │   ├── ContactUs.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── PreviewComplaint.jsx
+│   │   │   ├── RegisterComplaint.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── Success.jsx
+│   │   │   └── TrackComplaint.jsx
+│   │   │
+│   │   ├── styles/
+│   │   │   ├── AdminDashboard.css
+│   │   │   ├── ComplaintDetails.css
+│   │   │   ├── ContactUs.css
+│   │   │   ├── Features.css
+│   │   │   ├── Footer.css
+│   │   │   ├── Hero.css
+│   │   │   ├── Home.css
+│   │   │   ├── Login.css
+│   │   │   ├── Navbar.css
+│   │   │   ├── PreviewComplaint.css
+│   │   │   ├── RegisterComplaint.css
+│   │   │   ├── Signup.css
+│   │   │   ├── Success.css
+│   │   │   └── TrackComplaint.css
+│   │   │
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
 │
 ├── server/
-│   │
 │   ├── config/
 │   │   └── db.js
 │   │
@@ -60,8 +103,6 @@ OnlineComplaintRegistration/
 │   │   ├── Admin.js
 │   │   ├── Complaint.js
 │   │   └── User.js
-│   │
-│   ├── node_modules/
 │   │
 │   ├── routes/
 │   │   ├── adminRoutes.js
@@ -76,7 +117,6 @@ OnlineComplaintRegistration/
 ├── package.json
 ├── package-lock.json
 └── README.md
-```
 ---
 # ⚙️ Installation
 ### Clone the Repository
