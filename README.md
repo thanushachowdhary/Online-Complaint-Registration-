@@ -219,7 +219,7 @@ Tested APIs:
 - Node.js
 - Express.js
 - MongoDB
-- Mongoose
+- MongoDB Compass
 - REST API Development
 - GitHub
 ---
